@@ -27,6 +27,8 @@ const Header = () => {
         },
     ]
   return (
+    <div className="max-w-[1620px] mx-auto px-3 md:px-5">
+
     <div className="flex items-center justify-between border border-[#EAEAEA] rounded-full px-6 py-4 md:py-6 mt-8">
         {/* Logo  */}
         <div>
@@ -50,7 +52,7 @@ const Header = () => {
 
         {/* Action - Button  */}
         <div className="flex items-center gap-3 ">
-            <button className="bg-gradient-to-r from-[#8A36EA] via-[#22499C] to-[#3D58EA] px-4 py-2 md:px-8 md:py-4 rounded-full">Get Started</button>
+            <button className="hidden lg:block bg-gradient-to-r from-[#8A36EA] via-[#22499C] to-[#3D58EA] px-4 py-2 md:px-8 md:py-4 rounded-full text-white">Get Started</button>
 
         <div>
             <div className="relative inline-block text-left">
@@ -75,7 +77,10 @@ const Header = () => {
                         </span>
                     )
                 })
+
+                
             }
+            <button className="bg-gradient-to-r from-[#8A36EA] via-[#22499C] to-[#3D58EA] px-4 py-2 md:px-8 md:py-4 rounded-full text-white">Get Started</button>
     </div>
   </div>
 </div>
@@ -85,6 +90,7 @@ const Header = () => {
         
 
 
+    </div>
     </div>
     
 
