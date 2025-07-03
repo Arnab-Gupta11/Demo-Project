@@ -40,7 +40,7 @@ const WhoIsThisPlatform = () => {
             {
               data.map(item=>{
                 return (
-                  <div key={item.id} className="rounded-2xl border border-slate-100 p-5">
+                  <div key={item.id} className="rounded-2xl bg-[#F5F6F9] border border-slate-100 p-5">
                     <img src={item.icon} alt={`icon-${item.id}`} className="w-12 h-12 mb-4"/>
                     <div className="w-full h-52 ">
                       <img src={item.image} alt={`image-${item.id}`} className="w-full h-full object-fill"/>

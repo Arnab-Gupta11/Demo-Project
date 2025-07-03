@@ -37,7 +37,7 @@ const HowItWorks = () => {
         },
     ]
   return (
-     <>
+     <div className="pt-10">
         <Section>
           <SectionTitle>How It <span className="text-[#8A36EA] ">Works</span></SectionTitle>
           
@@ -57,7 +57,7 @@ const HowItWorks = () => {
             }
           </div>
         </Section>
-    </>
+    </div>
   )
 }
 

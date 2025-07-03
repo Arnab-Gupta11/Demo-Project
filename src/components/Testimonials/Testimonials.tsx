@@ -25,7 +25,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <div className="bg-[#4CE0FA0A] rounded-2xl shadow-sm p-8 md:p-16 my-10 max-w-[1620px] mx-auto px-3 md:px-5 border border-gray-200 relative flex flex-col lg:flex-row justify-center items-center">
+    <div className="bg-[#4CE0FA0A] rounded-2xl shadow-sm p-8 md:p-16 max-w-[1620px] mx-auto px-3 md:px-5 border border-gray-200 relative flex flex-col lg:flex-row justify-center items-center">
       <div className="mb-8 w-full lg:w-1/2 ">
         <h1 className="text-3xl md:text-4xl font-bold mb-2">
           What <span className="text-purple-600">Our Early Users</span> <span className="text-cyan-400">Are</span> <span className="text-purple-600">Saying</span>

@@ -29,7 +29,7 @@ const Header = () => {
   return (
     <div className="max-w-[1620px] mx-auto px-3 md:px-5">
 
-    <div className="flex items-center justify-between border border-[#EAEAEA] rounded-full px-6 py-4 md:py-6 mt-8">
+    <div className="flex items-center justify-between border border-[#EAEAEA] rounded-full px-4 py-3 md:py-4 mt-8">
         {/* Logo  */}
         <div>
             <h1 className="font-bold text-lg">Logo</h1>
