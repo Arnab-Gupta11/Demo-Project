@@ -55,7 +55,7 @@ const SimplePricing = () => {
                   Get started fee
                 </button>
               </div>
-              <div className="p-5 bg-white border border-slate-100 rounded-2xl">
+              <div className="p-5 bg-white border-2 border-[#8267EC] rounded-2xl shadow-sm shadow-[#00000040]">
                 <span className="text-[#8267EC]">Free</span>
                 <h1><span className="text-2xl font-bold">$29 </span>/Month</h1>
                 <p className="text-lg mt-4">Ideal for growing businesses and active content creators.</p>
@@ -88,7 +88,7 @@ const SimplePricing = () => {
                   Choose Pro
                 </button>
               </div>
-              <div className="p-5 bg-white border border-slate-100 rounded-2xl">
+              <div className="p-5 bg-white border border-slate-100 rounded-2xl shadow-sm shadow-[#00000040]" >
                 <span className="text-[#8267EC]">Free</span>
                 <h1><span className="text-2xl font-bold">$99</span>/Month</h1>
                 <p className="text-lg mt-4">For agencies and large teams requiring extensive automation.</p>

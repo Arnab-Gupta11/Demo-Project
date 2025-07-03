@@ -2,8 +2,10 @@ import { FaBriefcase, FaUserShield, FaLink } from "react-icons/fa";
 
 const GettingStarted = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-r from-pink-100 via-white to-purple-100 flex items-center justify-center px-4 py-12">
-      <div className="bg-white rounded-2xl shadow-md p-10 max-w-6xl w-full text-center">
+    <div className="relative">
+
+    <div className="min-h-screen bg-radial-[at_25%_25%] from-[#F2CDDB] to-[#DDCFF5] to-75% max-w-[1620px] mx-auto flex items-center justify-center px-4 py-12 rounded-3xl -z-10">
+    <div className="bg-white rounded-2xl shadow-md p-10 max-w-6xl w-full text-center z-10 absolute">
         <h1 className="text-3xl md:text-4xl font-bold">
           Getting Started: <span className="text-purple-600">What You'll Need</span>
         </h1>
@@ -46,7 +48,9 @@ const GettingStarted = () => {
           </div>
         </div>
       </div>
-    </section>
+      
+    </div>
+    </div>
   );
 };
 

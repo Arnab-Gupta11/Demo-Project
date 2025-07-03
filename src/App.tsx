@@ -1,11 +1,14 @@
 import './App.css'
 import Banner from './components/Banner/Banner'
+import FAQ from './components/FAQ/FAQ'
+import Footer from './components/Footer/Footer'
 import GettingStarted from './components/GettingStrarted/GettingStarted'
 import Header from './components/Header/Header'
 import HowItWorks from './components/HowItWorks/HowItWorks'
 import KeyFeature from './components/KeyFeature/KeyFeature'
 import SimplePricing from './components/SimplePricing/SimplePricing'
 import WhoIsThisPlatform from './components/WhoIsThisPlatform/WhoIsThisPlatform'
+import Testimonials from './components/Testimonials/Testimonials'
 
 function App() {
 
@@ -19,6 +22,9 @@ function App() {
         <WhoIsThisPlatform/>
         <GettingStarted/>
         <SimplePricing/>
+        <FAQ/>
+        <Testimonials/>
+        <Footer/>
       </div>
     </>
   )
